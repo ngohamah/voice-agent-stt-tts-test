@@ -8,7 +8,7 @@ STT → LLM → TTS, and returns the transcript, reply text, and spoken reply.
 - **TTS**: Cartesia (`sonic-2`) via the `cartesia` SDK
 
 ##
-[Architecture]()
+[Architecture](https://github.com/ngohamah/voice-agent-stt-tts-test/blob/main/architecture.png)
 ## Setup
 
 ```bash
