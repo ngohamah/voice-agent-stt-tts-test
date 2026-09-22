@@ -7,6 +7,8 @@ STT → LLM → TTS, and returns the transcript, reply text, and spoken reply.
 - **LLM**: Llama 3.3 70B via Groq's API (`groq` SDK, free tier)
 - **TTS**: Cartesia (`sonic-2`) via the `cartesia` SDK
 
+##
+[Architecture]()
 ## Setup
 
 ```bash
