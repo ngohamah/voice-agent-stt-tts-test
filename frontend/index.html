@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Voice Agent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Voice Agent</h1>
+    <p class="subtitle">Voxtral (STT) &rarr; Gemini (LLM) &rarr; Cartesia (TTS)</p>
+
+    <button id="recordBtn">Start Recording</button>
+    <button id="resetBtn">Reset Conversation</button>
+
+    <p id="status"></p>
+
+    <div class="transcript-box">
+      <h2>Conversation</h2>
+      <div id="log"></div>
+    </div>
+
+    <audio id="player" controls></audio>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

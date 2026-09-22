@@ -1,0 +1,56 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0 16px;
+  color: #1a1a1a;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: -8px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 18px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+button.recording {
+  background: #e35b5b;
+  color: white;
+  border-color: #c24545;
+}
+
+#status {
+  color: #888;
+  min-height: 1.2em;
+}
+
+.transcript-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-height: 120px;
+  margin-bottom: 16px;
+}
+
+.turn {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.turn .who {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+audio {
+  width: 100%;
+}
