@@ -7,8 +7,10 @@ STT → LLM → TTS, and returns the transcript, reply text, and spoken reply.
 - **LLM**: Llama 3.3 70B via Groq's API (`groq` SDK, free tier)
 - **TTS**: Cartesia (`sonic-2`) via the `cartesia` SDK
 
-##
-[Architecture](https://github.com/ngohamah/voice-agent-stt-tts-test/blob/main/architecture.png)
+## Architecture
+
+![Architecture: browser records audio, backend runs it through Voxtral STT, an LLM (Gemini or Groq), then Cartesia TTS](architecture.png)
+
 ## Setup
 
 ```bash
@@ -37,6 +39,8 @@ uvicorn main:app --reload
 
 Open http://localhost:8000 — click "Start Recording", speak, click "Stop
 Recording", and wait for the reply to play back.
+
+![Demo: a conversation turn in the Voice Agent UI, showing the transcript, reply text, and playback controls](demo.png)
 
 ## Notes / known limitations
 
